@@ -22,3 +22,5 @@ your .vimrc:
 	autocmd FileType html set ft=htmldjango.html " For SnipMate
 
 Enjoy!
+
+-- testing commit from submodule
