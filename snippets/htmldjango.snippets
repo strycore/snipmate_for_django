@@ -85,6 +85,8 @@ snippet thumbnail
 	{% thumbnail ${1:image} "${2:size}" as img %}
 	    <img src="{{ img.url }}" alt="" />
 	{% endthumbnail %}
+snippet csrf
+	{% csrf_token %}
 # Template Filters
 
 # Note: Since SnipMate can't determine which template filter you are
